@@ -1,7 +1,7 @@
 #tag cr.homedrive.io/ncfront
 #in //go/shanhu.io/homedrv/daemon/ncfrontd
 
-FROM cr.shanhu.io/alpine
+FROM cr.shanhu.io/base/alpine
 MAINTAINER Shanhu Tech Inc.
 LABEL io.homedrive.name=ncfront
 

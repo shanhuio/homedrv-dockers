@@ -1,7 +1,7 @@
 #tag cr.homedrive.io/doorway
 #in //go/shanhu.io/homedrv/daemon/doorwayd
 
-FROM cr.shanhu.io/alpine
+FROM cr.shanhu.io/base/alpine
 MAINTAINER Shanhu Tech Inc.
 LABEL io.homedrive.name=doorway
 

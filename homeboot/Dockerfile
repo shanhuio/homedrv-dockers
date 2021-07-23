@@ -2,7 +2,7 @@
 #tag cr.homedrive.io/homeboot
 #in //go/shanhu.io/homedrv/cmd/homeboot
 
-FROM cr.shanhu.io/alpine
+FROM cr.shanhu.io/base/alpine
 MAINTAINER Shanhu Tech Inc.
 LABEL io.homedrive.name=homeboot
 

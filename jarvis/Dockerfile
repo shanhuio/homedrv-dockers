@@ -2,7 +2,7 @@
 #in //go/shanhu.io/homedrv/daemon/jarvisd
 #inzip //npm/jarvis/jarvis.zip
 
-FROM cr.shanhu.io/alpine
+FROM cr.shanhu.io/base/alpine
 MAINTAINER Shanhu Tech Inc.
 LABEL io.homedrive.name=jarvis
 
