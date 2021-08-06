@@ -1,22 +1,22 @@
 {
     "influxdb:2.0.7": {
-        Digest: "sha256:7d6dcce155a3a09d2c29e0d03c8f26514081b730938aab560df3d40044a9a9f3",
-        ID: "sha256:6f26c7e4d38bc7c7152149e875c156ea37b264cad7ab9c8dcd870f3b36c56fa4",
+        Digest: "sha256:085d0a0f2a627ac22586305772e20e4c390cd1e4dd95daa7923f5144638c3f8e",
+        ID: "sha256:d636ad7ee210123228a7815b07cac9bfa682fba8e2baa59ceefbcf36cae7a0b7",
     },
-    "nextcloud:20.0.11": {
-        Digest: "sha256:428c481e15bde374aa457f422dbae0f73178e5b4fe2abd6760724dbf17441012",
-        ID: "sha256:e426c74f28ac489dc984ba621893ea0a14736e83c61d87ca53c3cb08c6f045ba",
+    "nextcloud:20.0.12": {
+        Digest: "sha256:e9d5f403f1b0d7623a23799acbfa70642aa2af927f5077ab6994f21a817f11d3",
+        ID: "sha256:ef38139db440cddfd230804ffcfd78e24b795e55a4d0e146de44e065cc7e4257",
     },
-    "nextcloud:21.0.3": {
-        Digest: "sha256:1666ad15e58fa46c4e4d613faf31dbec015e46e30deff17de087eda491c9d847",
-        ID: "sha256:068f511d11c8ee7e327ba469344c27fce2a03879c209bd20b58d78dd29a8742f",
+    "nextcloud:21.0.4": {
+        Digest: "sha256:2a25e879b78109a3ad89f95a0f901f2ea8e616b6fa03fd96383994fc36af64de",
+        ID: "sha256:3da356cc32921d25398d645fcfe831569f5a6fb18db53f96fc292da604f6cd92",
     },
     "postgres:12.7": {
-        Digest: "sha256:0e103fd33b675eb558c6a4010112da6a554963d3454a549adb7edccaa1cce71d",
-        ID: "sha256:6f8cc63cce96b08912e6145cc44ef184f5765cc89ee5205f89300b3bd47cc391",
+        Digest: "sha256:1ba4e7aa3db644e8f6faee085bb40c1e050baa9a28f79948daa98220b2dc0394",
+        ID: "sha256:0f698a6badfa74ce8a84a7c5b593348578bb7d348447df63f91b0d0413353615",
     },
-    "redis:6.2.4": {
-        Digest: "sha256:7c540ceff53f0522f6b1c264d8142df08316173d103586ddf51ed91ca49deec8",
-        ID: "sha256:08502081bff61084d64fc76f0f90ea39b89935cd071d9e12c5374ae191ff53c0",
+    "redis:6.2.5": {
+        Digest: "sha256:cd0c68c5479f2db4b9e2c5fbfdb7a8acb77625322dd5b474578515422d3ddb59",
+        ID: "sha256:aa4d65e670d6518e5da96ca9d1a76370a942970a8802e6d5cc6bcf058ab12ca7",
     },
 }
