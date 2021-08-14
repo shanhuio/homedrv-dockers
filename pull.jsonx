@@ -1,7 +1,7 @@
 {
     "nextcloud20": "nextcloud:20.0.12",
     "nextcloud21": "nextcloud:21.0.4",
-    "postgres12": "postgres:12.7",
+    "postgres12": "postgres:12.8",
     "redis": "redis:6.2.5",
-    "influxdb": "influxdb:2.0.7",
+    "influxdb": "influxdb:2.0.8",
 }

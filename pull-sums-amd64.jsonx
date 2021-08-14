@@ -1,7 +1,7 @@
 {
-    "influxdb:2.0.7": {
-        Digest: "sha256:085d0a0f2a627ac22586305772e20e4c390cd1e4dd95daa7923f5144638c3f8e",
-        ID: "sha256:d636ad7ee210123228a7815b07cac9bfa682fba8e2baa59ceefbcf36cae7a0b7",
+    "influxdb:2.0.8": {
+        Digest: "sha256:537962de8d8e2dcbfda896f7bf0e107d3a383478271dead13781b961a166aaf7",
+        ID: "sha256:d0eb1991d5e650f0d185db326a5c5f1c2c71bc0ba3a126a5b7686d0f9609c718",
     },
     "nextcloud:20.0.12": {
         Digest: "sha256:e9d5f403f1b0d7623a23799acbfa70642aa2af927f5077ab6994f21a817f11d3",
@@ -11,9 +11,9 @@
         Digest: "sha256:2a25e879b78109a3ad89f95a0f901f2ea8e616b6fa03fd96383994fc36af64de",
         ID: "sha256:3da356cc32921d25398d645fcfe831569f5a6fb18db53f96fc292da604f6cd92",
     },
-    "postgres:12.7": {
-        Digest: "sha256:1ba4e7aa3db644e8f6faee085bb40c1e050baa9a28f79948daa98220b2dc0394",
-        ID: "sha256:0f698a6badfa74ce8a84a7c5b593348578bb7d348447df63f91b0d0413353615",
+    "postgres:12.8": {
+        Digest: "sha256:e10cd754296c1b3e93a121bcc64550d183df56f20bab47e08cacb123fb969b5e",
+        ID: "sha256:b542342c7aeacc7e391d4cd935f4d8cbe22708f7edbd2d835a99f7196f477792",
     },
     "redis:6.2.5": {
         Digest: "sha256:cd0c68c5479f2db4b9e2c5fbfdb7a8acb77625322dd5b474578515422d3ddb59",
