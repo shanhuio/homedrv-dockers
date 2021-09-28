@@ -1,15 +1,23 @@
-#tag cr.homedrive.io/core
+#tag cr.homedrive.io/homedrv/core
 #in //go/shanhu.io/homedrv/daemon/jarvisd
 #inzip //npm/jarvis/jarvis.zip
 
 FROM cr.shanhu.io/base/alpine
 MAINTAINER Shanhu Tech Inc.
-LABEL io.homedrive.name=jarvis
+LABEL io.homedrive.name=core
 
-COPY jarvisd /bin/jarvisd
-RUN ln -s /bin/jarvisd /bin/jarvis
-RUN mkdir /opt/jarvis
-COPY _ /opt/jarvis/_
-WORKDIR /opt/jarvis
-EXPOSE 8080
-CMD ["/bin/jarvisd", "-addr=:3377"]
+RUN mkdir -p /opt/app
+RUN cd /opt/app && mkdir bin var etc lib tmp
+WORKDIR /opt/app
+
+COPY jarvisd /opt/app/bin/jarvisd
+RUN ln -s /opt/app/bin/jarvisd /bin/jarvisd
+RUN ln -s /opt/app/bin/jarvisd /bin/jarvis
+
+# TODO(h8liu): copy to lib directory
+COPY _ /opt/app/_
+
+WORKDIR /opt/app
+EXPOSE 3377
+
+CMD ["./bin/jarvisd", "-addr=:3377"]
