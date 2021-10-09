@@ -2,13 +2,8 @@
 #in //go/shanhu.io/homedrv/daemon/jarvisd
 #inzip //npm/jarvis/jarvis.zip
 
-FROM cr.shanhu.io/base/alpine
-MAINTAINER Shanhu Tech Inc.
+FROM cr.shanhu.io/base/app
 LABEL io.homedrive.name=core
-
-RUN mkdir -p /opt/app
-RUN cd /opt/app && mkdir bin var etc lib tmp
-WORKDIR /opt/app
 
 COPY jarvisd /opt/app/bin/jarvisd
 RUN ln -s /opt/app/bin/jarvisd /bin/jarvisd
