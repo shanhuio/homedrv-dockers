@@ -5,7 +5,7 @@
 FROM cr.shanhu.io/base/alpine
 LABEL io.homedrive.name=jarvis
 
-RUN mkdir -o /opt/jarvis
+RUN mkdir -p /opt/jarvis
 RUN cd /opt/jarvis && mkdir bin var etc lib tmp
 
 COPY jarvisd /opt/jarvis/bin/jarvisd
