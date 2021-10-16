@@ -9,8 +9,7 @@ COPY jarvisd /opt/app/bin/jarvisd
 RUN ln -s /opt/app/bin/jarvisd /bin/jarvisd
 RUN ln -s /opt/app/bin/jarvisd /bin/jarvis
 
-# TODO(h8liu): copy to lib directory
-COPY _ /opt/app/_
+COPY lib /opt/app/lib
 
 WORKDIR /opt/app
 EXPOSE 3377

@@ -1,22 +1,22 @@
 {
-    "influxdb:2.0.8": {
-        Digest: "sha256:537962de8d8e2dcbfda896f7bf0e107d3a383478271dead13781b961a166aaf7",
-        ID: "sha256:d0eb1991d5e650f0d185db326a5c5f1c2c71bc0ba3a126a5b7686d0f9609c718",
+    "influxdb:2.0.9": {
+        Digest: "sha256:cb84c8b09a62bf42ec4218acad813ed50c93aec341ca727d1169d8c3a83a0408",
+        ID: "sha256:3d28107b0899bbd9eb6acb17e55b64fa976ee0cdbff7c1a31ec08c48242ba8de",
     },
-    "nextcloud:20.0.12": {
-        Digest: "sha256:e9d5f403f1b0d7623a23799acbfa70642aa2af927f5077ab6994f21a817f11d3",
-        ID: "sha256:ef38139db440cddfd230804ffcfd78e24b795e55a4d0e146de44e065cc7e4257",
+    "nextcloud:20.0.13": {
+        Digest: "sha256:6ce11ab2fbf22f99f87819baa6d0bb3cfac8dc99c257022f06eceaf5aa6c0011",
+        ID: "sha256:a6d63869acb3ab079f06077875627fee44814b2516dd516ade914f85c6ca7529",
     },
-    "nextcloud:21.0.4": {
-        Digest: "sha256:2a25e879b78109a3ad89f95a0f901f2ea8e616b6fa03fd96383994fc36af64de",
-        ID: "sha256:3da356cc32921d25398d645fcfe831569f5a6fb18db53f96fc292da604f6cd92",
+    "nextcloud:21.0.5": {
+        Digest: "sha256:966b9229f0e8e1455b177d0d516db2c8a66a2cbc7aedf5886cf70947c5a447c1",
+        ID: "sha256:eccb2a178eb75edc461694ba97cb99a34970948d14407f5292292d1c20d2d403",
     },
     "postgres:12.8": {
-        Digest: "sha256:e10cd754296c1b3e93a121bcc64550d183df56f20bab47e08cacb123fb969b5e",
-        ID: "sha256:b542342c7aeacc7e391d4cd935f4d8cbe22708f7edbd2d835a99f7196f477792",
+        Digest: "sha256:5dee94aed72d1549f945e63195ebe720a1472df170f8d2a8807ea02c8ecf6aa2",
+        ID: "sha256:fd694ed1533c17b41ce216f564c485b00c54a22d4381ffffb0a8e0c1b63f1747",
     },
-    "redis:6.2.5": {
-        Digest: "sha256:cd0c68c5479f2db4b9e2c5fbfdb7a8acb77625322dd5b474578515422d3ddb59",
-        ID: "sha256:aa4d65e670d6518e5da96ca9d1a76370a942970a8802e6d5cc6bcf058ab12ca7",
+    "redis:6.2.6": {
+        Digest: "sha256:a89cb097693dd354de598d279c304a1c73ee550fbfff6d9ee515568e0c749cfe",
+        ID: "sha256:7faaec68323851b2265bddb239bd9476c7d4e4335e9fd88cbfcc1df374dded2f",
     },
 }
