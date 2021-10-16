@@ -2,16 +2,20 @@
 #in //go/shanhu.io/homedrv/daemon/jarvisd
 #inzip //npm/jarvis/jarvis.zip
 
-FROM cr.shanhu.io/base/app
-LABEL io.homedrive.name=core
+FROM cr.shanhu.io/base/alpine
+LABEL io.homedrive.name=jarvis
 
-COPY jarvisd /opt/app/bin/jarvisd
-RUN ln -s /opt/app/bin/jarvisd /bin/jarvisd
-RUN ln -s /opt/app/bin/jarvisd /bin/jarvis
+RUN mkdir -o /opt/jarvis
+RUN cd /opt/jarvis && mkdir bin var etc lib tmp
 
-COPY lib /opt/app/lib
+COPY jarvisd /opt/jarvis/bin/jarvisd
+RUN ln -s /opt/jarvis/bin/jarvisd /bin/jarvisd
+RUN ln -s /opt/jarvis/bin/jarvisd /bin/jarvis
+RUN ln -s /opt/jarvis /opt/app
 
-WORKDIR /opt/app
+COPY lib /opt/jarvis/lib
+
+WORKDIR /opt/jarvis
 EXPOSE 3377
 
 CMD ["./bin/jarvisd", "-addr=:3377"]
