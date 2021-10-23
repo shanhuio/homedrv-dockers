@@ -4,11 +4,11 @@
         ID: "sha256:3d28107b0899bbd9eb6acb17e55b64fa976ee0cdbff7c1a31ec08c48242ba8de",
     },
     "nextcloud:20.0.13": {
-        Digest: "sha256:48b20d933905adb6b459cfeb28abae496453730fcda79799765ef918021a841f",
+        Digest: "sha256:c535fc752b8ff55ddb7567faefac1abd6a7c8fe30cc142c8cfb6db1c38f93f7d",
         ID: "sha256:6637736e5965af22d876eafa5494590916f6c960d64ffb3d39cf59b6fc68e727",
     },
     "nextcloud:21.0.5": {
-        Digest: "sha256:edda7a4ab639a886fcde5f8ac3223525cc493d555409a00e3d0ec3327d7d89ea",
+        Digest: "sha256:284b76fad38386843726fe38404a29b1fb3611c36c00eb07bb0ae4c3669505b3",
         ID: "sha256:3334f43759f18d62cc59a69d5ffb7b93e1a4647c918b03650931d5b966deb2ab",
     },
     "nextcloud:22.2.0": {
