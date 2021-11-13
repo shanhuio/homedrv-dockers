@@ -1,26 +1,26 @@
 {
-    "influxdb:2.0.9": {
-        Digest: "sha256:ed884c6895724a4677de78e84df0246ced5d898216cd6d69332bebca2da22fd6",
-        ID: "sha256:3d28107b0899bbd9eb6acb17e55b64fa976ee0cdbff7c1a31ec08c48242ba8de",
+    "influxdb:2.1.1": {
+        Digest: "sha256:a34519b04044084c0e23192a464799577e6713ddbd957824b14d5a86b671788d",
+        ID: "sha256:2d73c2625c70a1fa038f94f56dbe38725259ded80a853869ac5552980a875948",
     },
-    "nextcloud:20.0.13": {
-        Digest: "sha256:c535fc752b8ff55ddb7567faefac1abd6a7c8fe30cc142c8cfb6db1c38f93f7d",
-        ID: "sha256:6637736e5965af22d876eafa5494590916f6c960d64ffb3d39cf59b6fc68e727",
+    "nextcloud:20.0.14": {
+        Digest: "sha256:1b2e9a1975f06d18c066a57d393ddbcad5e20606bc4ea8c43e507f23baa638db",
+        ID: "sha256:a7c01e97886f9a0b1142000ba30e46091c8e3122350adac462c8d6a469c5e80c",
     },
-    "nextcloud:21.0.5": {
-        Digest: "sha256:284b76fad38386843726fe38404a29b1fb3611c36c00eb07bb0ae4c3669505b3",
-        ID: "sha256:3334f43759f18d62cc59a69d5ffb7b93e1a4647c918b03650931d5b966deb2ab",
+    "nextcloud:21.0.6": {
+        Digest: "sha256:8a02a16577fb3bb5a32a567374d2242e8dc7491a614879d112251504192e973e",
+        ID: "sha256:8d8ae85fce955f6d931f7562aed3a21e356a7a5cf48c3baf449b6ab8916ecce1",
     },
-    "nextcloud:22.2.0": {
-        Digest: "sha256:3a10a9b27c467bd8129de22ce502cb7e8cb1476783740e307766eabdfa6f7c89",
-        ID: "sha256:cc60e970a19d27d25525713db5e56f53d30d1031df998630089dfaa7807f639a",
+    "nextcloud:22.2.1": {
+        Digest: "sha256:79ca3c173428faa6a0c4e5d922a74c9cf1ce2a66f5d754e69f7940145b2626fe",
+        ID: "sha256:012bb5d1152f6bfadec0ca0eb7c4b1c51fad023d76dbdb59095a7d7aad6f769d",
     },
-    "postgres:12.8": {
-        Digest: "sha256:03a821bf55c06afc5b1eca7d1ba2ca0fd13edbe0e2794a90d741f1fea31787af",
-        ID: "sha256:5c4789e9bb7bb119b87daeffe7ac587b6e6eff4072a1b43b11a5a4209ed7c265",
+    "postgres:12.9": {
+        Digest: "sha256:17450095e12c8b3421de6bba11a5a86fd1e2d8d116b799b90b625f744bad5c5d",
+        ID: "sha256:905214d6fdc5548a386a5ebe60589e4c1aa25afd6b22300017b114a3e46515fd",
     },
     "redis:6.2.6": {
-        Digest: "sha256:a89cb097693dd354de598d279c304a1c73ee550fbfff6d9ee515568e0c749cfe",
+        Digest: "sha256:54ee15a0b0d2c661d46b9bfbf55b181f9a4e7ddf8bf693eec5703dac2c0f5546",
         ID: "sha256:7faaec68323851b2265bddb239bd9476c7d4e4335e9fd88cbfcc1df374dded2f",
     },
 }
