@@ -1,26 +1,26 @@
 {
     "influxdb:2.1.1": {
-        Digest: "sha256:6597ad58ab996d75e4f000e6295d2a2db8543644e329f009d0e3b7ceaaed3940",
-        ID: "sha256:07a3e66c579fd83698cd7792b7a31f40b776f2be07bee7a73642502787e71cf2",
+        Digest: "sha256:1a48c5c4b957b795cdf381bcf91e0d7de9edea2d9be984afbd6e4922e2e24484",
+        ID: "sha256:1f5a04237d8e1be82d950136533137c5396aeb11c0b7063f6fcb1148041327b2",
     },
     "nextcloud:20.0.14": {
         Digest: "sha256:07ff4e2cd5d2f3e04b7a9f939cc2701f560fd64fe3748bd07442974fa1e801a2",
         ID: "sha256:418f4dd03035117c95cb71309d72a58a5db87cc75d99b335fb4483ba37351c17",
     },
     "nextcloud:21.0.7": {
-        Digest: "sha256:3aecbe9d84470ef0c51cf3896ce855f1e88a5512928e7f79c217e7e1d8b67b30",
-        ID: "sha256:a4b7e6a565f05033c00c370b7eac554d52fc68bdd6d991b165390ed3c1126bd5",
+        Digest: "sha256:9dd63108c132d0749283588c2472a0746c6a00a3905e3fb1c3f444be4396fc3a",
+        ID: "sha256:2b032689257853ce13b010fc150f86b4c9e51d95488c901ae7159e4405afbdb3",
     },
     "nextcloud:22.2.3": {
-        Digest: "sha256:34c3699280e4750a939ae3df7def47a773fadc75b094031d34a00677d4f8d8c3",
-        ID: "sha256:038eab387f2577cf5f74ae47f754d32df63b572db13efde371552d6329de8b18",
+        Digest: "sha256:3a1fbc2b47cb10a99da45dda27cfe438ca318beffbb89ecb2d7d85e273288785",
+        ID: "sha256:2d4f349471599cf3b83e49275b752f1b4f720c51aefdaa05a08c134dc556ef35",
     },
     "postgres:12.9": {
-        Digest: "sha256:0854202db0b3378c46909bab43a85b01dc1b92cc44520480e47dd4fbc22714ee",
-        ID: "sha256:f1a5e4852a8c335ef0f1a3aae30c39c8484660d5aa7dfd5bb8756ee473575da5",
+        Digest: "sha256:c80484ebc4cffad7334baf832ddfa2c3ac2deb8b1892287f71e2daf23508066c",
+        ID: "sha256:afee8d9d57fcd8e332d35bbab6e8dfdbef888f81531288e10c55c1d23ec0d8fe",
     },
     "redis:6.2.6": {
-        Digest: "sha256:2f502d27c3e9b54295f1c591b3970340d02f8a5824402c8179dcd20d4076b796",
-        ID: "sha256:aea9b698d7d1d2fb22fe74868e27e767334b2cc629a8c6f9db8cc1747ba299fd",
+        Digest: "sha256:db485f2e245b5b3329fdc7eff4eb00f913e09d8feb9ca720788059fdc2ed8339",
+        ID: "sha256:7614ae9453d1d87e740a2056257a6de7135c84037c367e1fffa92ae922784631",
     },
 }
