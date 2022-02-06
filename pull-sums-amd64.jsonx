@@ -1,19 +1,19 @@
 {
     "influxdb:2.1.1": {
-        Digest: "sha256:7e646298fcfb8515b5df3d1ff773816e49624617637ad362ec75c746913a2e8f",
-        ID: "sha256:fb9c8e2265a01a4c996e157f5eb2aa05dc369b82dd817536a98cd641ad705b9d",
+        Digest: "sha256:5b1afa0ef49e69266a4544a5827cde0e696fab2f38eaebc63760d4530ef2528b",
+        ID: "sha256:644e7014ccc47738580ca26447850c4dbbd0ea86cd3f41e9efaadf6dd8222bed",
     },
     "nextcloud:20.0.14": {
         Digest: "sha256:07ff4e2cd5d2f3e04b7a9f939cc2701f560fd64fe3748bd07442974fa1e801a2",
         ID: "sha256:418f4dd03035117c95cb71309d72a58a5db87cc75d99b335fb4483ba37351c17",
     },
-    "nextcloud:21.0.7": {
-        Digest: "sha256:383af10c97ffc897669ca663c9fabf9a0a5b78cf4c720e76b4ccb936be28fb7d",
-        ID: "sha256:669cfcb8f66a1b5c3a588c7b7ea0d0b7e5734882827d83fa137085b56c871a98",
+    "nextcloud:21.0.8": {
+        Digest: "sha256:36e118ae8aa3f03925053b206010fe9b4727b732591b50c9bbc5380a8b4eb065",
+        ID: "sha256:86528d63793b982dcccf9a53ef9d03ea146ec8a516b6affa5d8375c2e75e97f5",
     },
-    "nextcloud:22.2.3": {
-        Digest: "sha256:36269a17999ea62c89c0045f169b32a104e27bd1143e4823bff5a140eaabc951",
-        ID: "sha256:575ef80e94e3afe0ac4d0d3d78e78beb0094d1e564d6783c3e95843e09d9fba1",
+    "nextcloud:22.2.4": {
+        Digest: "sha256:ffca88fdaf1c87ba0c7fa2dde37cefe3d5150acc276f440834d9435654491bbc",
+        ID: "sha256:23aa40f156c700b39ee876ab261d63d62d682a8708d5196b4217ff415ae4f08b",
     },
     "postgres:12.9": {
         Digest: "sha256:7984919d5b1d8bd22539118c671555b50cd3bb5fbc568645a49f61e5ab94b8f9",
