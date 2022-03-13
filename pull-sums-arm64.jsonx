@@ -1,15 +1,15 @@
 {
     "influxdb:2.1.1": {
-        Digest: "sha256:5b1afa0ef49e69266a4544a5827cde0e696fab2f38eaebc63760d4530ef2528b",
-        ID: "sha256:c4e5dcc7d87838d9c64835dba1080b69b09820b601b99858eaeb53d203182bb6",
+        Digest: "sha256:36a79a82f1d22c5be51365a24fd31d2f2e74a06855bc34d4227d6dd4331de1e6",
+        ID: "sha256:444bb7162f04108e620693da30380302a1ddb43114cc97a6f8ce9c6b178aefac",
     },
     "nextcloud:20.0.14": {
         Digest: "sha256:07ff4e2cd5d2f3e04b7a9f939cc2701f560fd64fe3748bd07442974fa1e801a2",
         ID: "sha256:84cb187db05272060f71263f7bbb593dd459ef12114b9bea37c51700de13b14a",
     },
     "nextcloud:21.0.8": {
-        Digest: "sha256:36e118ae8aa3f03925053b206010fe9b4727b732591b50c9bbc5380a8b4eb065",
-        ID: "sha256:be6b183708b84d941400c2de4dffd6a9b9e4afe04dc582278be0c7cf7b938205",
+        Digest: "sha256:a6def67e244f631007c8180af632de1ea782363475167206fde0aab0b48c43aa",
+        ID: "sha256:3c0f83fc12de54ae5b7180b240273bd6871c6efe6242d6566f8eecab4b203002",
     },
     "nextcloud:22.2.4": {
         Digest: "sha256:ffca88fdaf1c87ba0c7fa2dde37cefe3d5150acc276f440834d9435654491bbc",
@@ -20,7 +20,7 @@
         ID: "sha256:d078523f99d06ee9202511325bc8498f87fca23f60bb1c89ff062c0ccb0b5c79",
     },
     "redis:6.2.6": {
-        Digest: "sha256:0d9c9aed1eb385336db0bc9b976b6b49774aee3d2b9c2788a0d0d9e239986cb3",
-        ID: "sha256:6f72dd2e7b806b2a2cb34fadd00a7209d32aa35e8c942acddd09f2842159b8ba",
+        Digest: "sha256:feb846600a248be6e6afbad39bf5b91afaef1de5524fd85b9b53839d0fd4af96",
+        ID: "sha256:24b63f9417ae4555e5f0cc7edec796c28117f349f3247f25cc764af245827d48",
     },
 }
