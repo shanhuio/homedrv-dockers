@@ -8,7 +8,7 @@ docker_build {
     Name: "core",
     From: ["/shanhu.io/lib/dockers/base"],
     Input: [
-        "/shanhu.io/homedrv/drv/daemon/jarvisd"],
+        "/shanhu.io/homedrv/drv/daemon/jarvisd",
         // need some way to specify the zip file.
     ],
 }
