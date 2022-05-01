@@ -1,10 +1,9 @@
 #tag cr.homedrive.io/homedrv/ncfront
-#in //go/shanhu.io/homedrv/daemon/ncfrontd
 
-FROM cr.shanhu.io/base/app
+FROM cr.shanhu.io/lib/app
 LABEL io.homedrive.name=ncfront
 
-COPY ncfrontd /opt/app/bin/ncfrontd
+COPY shanhu.io/homedrv/drv/daemon/ncfrontd /opt/app/bin/ncfrontd
 EXPOSE 8080
 
 USER app

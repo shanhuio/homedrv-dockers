@@ -1,0 +1,62 @@
+docker_build {
+    Name: "homeboot",
+    From: ["/shanhu.io/lib/dockers/app"],
+    Input: ["/shanhu.io/homedrv/drv/cmd/homeboot"],
+}
+
+docker_build {
+    Name: "core",
+    From: ["/shanhu.io/lib/dockers/base"],
+    Input: [
+        "/shanhu.io/homedrv/drv/daemon/jarvisd"],
+        // need some way to specify the zip file.
+    ],
+}
+
+docker_build {
+    Name: "ncfront",
+    From: ["/shanhu.io/lib/dockers/app"],
+    Input: ["/shanhu.io/homedrv/drv/daemon/ncfrontd"],
+}
+
+docker_build {
+    Name: "doorway",
+    From: ["/shanhu.io/lib/dockers/app"],
+    Input: ["/shanhu.io/homedrv/drv/daemon/doorwayd"],
+}
+
+docker_build {
+    Name: "toolbox",
+    From: ["/shanhu.io/lib/dockers/base"],
+    Input: ["/shanhu.io/homedrv/drv/daemon/toolboxd"],
+}
+
+docker_pull {
+    Name: "nextcloud20",
+    Pull: "nextcloud:20.0.14",
+}
+
+docker_pull {
+    Name: "nextcloud21",
+    Pull: "nextcloud:21.0.9",
+}
+
+docker_pull {
+    Name: "nextcloud22",
+    Pull: "nextcloud:22.2.7",
+}
+
+docker_pull {
+    Name: "nextcloud23",
+    Pull: "nextcloud:23.0.4",
+}
+
+docker_pull {
+    Name: "redis",
+    Pull: "redis:6.2.7", // Maybe upgrade to redis 7?
+}
+
+docker_pull {
+    Name: "postgres12",
+    Pull: "postgres:12.10",
+}

@@ -1,7 +1,0 @@
-{
-    "nextcloud20": "nextcloud:20.0.14",
-    "nextcloud21": "nextcloud:21.0.9",
-    "nextcloud22": "nextcloud:22.2.6",
-    "postgres12": "postgres:12.10",
-    "redis": "redis:6.2.6",
-}
