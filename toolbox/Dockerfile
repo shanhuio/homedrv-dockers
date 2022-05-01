@@ -1,12 +1,10 @@
 #tag cr.homedrive.io/homedrv/toolbox
 
-FROM cr.shanhu.io/lib/base
+FROM cr.shanhu.io/lib/app
 LABEL io.homedrive.name=toolbox
 
-RUN mkdir -p /opt/app
-RUN cd /opt/app && mkdir bin var etc lib tmp
-
 COPY shanhu.io/homedrv/drv/daemon/toolboxd /opt/app/bin/toolboxd
-WORKDIR /opt/app
+
+# toolbox needs to run as root to perform system operations.
 
 CMD ["./bin/toolboxd"]
