@@ -60,3 +60,5 @@ docker_pull {
     Name: "postgres12",
     Pull: "postgres:12.10",
 }
+
+// Add a release generation script.
