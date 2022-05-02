@@ -2,6 +2,7 @@ docker_build {
     Name: "homeboot",
     From: ["/shanhu.io/lib/dockers/app"],
     Input: ["/shanhu.io/homedrv/drv/cmd/homeboot"],
+    OutputTar: true,
 }
 
 docker_build {
@@ -9,56 +10,85 @@ docker_build {
     From: ["/shanhu.io/lib/dockers/base"],
     Input: [
         "/shanhu.io/homedrv/drv/daemon/jarvisd",
-        // need some way to specify the zip file.
     ],
+    ArchiveInput: [
+        "/shanhu.io/homedrv/drv-ts/jarvis.zip",
+    ],
+    OutputTar: true,
 }
 
 docker_build {
     Name: "ncfront",
     From: ["/shanhu.io/lib/dockers/app"],
     Input: ["/shanhu.io/homedrv/drv/daemon/ncfrontd"],
+    OutputTar: true,
 }
 
 docker_build {
     Name: "doorway",
     From: ["/shanhu.io/lib/dockers/app"],
     Input: ["/shanhu.io/homedrv/drv/daemon/doorwayd"],
+    OutputTar: true,
 }
 
 docker_build {
     Name: "toolbox",
     From: ["/shanhu.io/lib/dockers/base"],
     Input: ["/shanhu.io/homedrv/drv/daemon/toolboxd"],
+    OutputTar: true,
 }
 
 docker_pull {
     Name: "nextcloud20",
     Pull: "nextcloud:20.0.14",
+    OutputTar: true,
 }
 
 docker_pull {
     Name: "nextcloud21",
     Pull: "nextcloud:21.0.9",
+    OutputTar: true,
 }
 
 docker_pull {
     Name: "nextcloud22",
     Pull: "nextcloud:22.2.7",
+    OutputTar: true,
 }
 
 docker_pull {
     Name: "nextcloud23",
     Pull: "nextcloud:23.0.4",
+    OutputTar: true,
 }
 
 docker_pull {
     Name: "redis",
     Pull: "redis:6.2.7", // Maybe upgrade to redis 7?
+    OutputTar: true,
 }
 
 docker_pull {
     Name: "postgres12",
     Pull: "postgres:12.10",
+    OutputTar: true,
+}
+
+bundle {
+    Name: "dockers",
+    Deps: [
+        "homeboot",
+        "core",
+        "ncfront",
+        "doorway",
+        "toolbox",
+        "nextcloud20",
+        "nextcloud21",
+        "nextcloud22",
+        "nextcloud23",
+        "redis",
+        "postgres12",
+    ],
 }
 
 // Add a release generation script.
