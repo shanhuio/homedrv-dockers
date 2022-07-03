@@ -91,4 +91,5 @@ bundle {
     ],
 }
 
-// Add a release generation script.
+// TODO(h8liu): Add a release generation script.
+// TODO(h8liu): port homeinstall docker
