@@ -63,6 +63,12 @@ docker_pull {
 }
 
 docker_pull {
+    Name: "nextcloud24",
+    Pull: "nextcloud:24.0.3",
+    OutputTar: true,
+}
+
+docker_pull {
     Name: "redis",
     Pull: "redis:6.2.7", // Maybe upgrade to redis 7?
     OutputTar: true,
