@@ -92,6 +92,7 @@ bundle {
         "nextcloud21",
         "nextcloud22",
         "nextcloud23",
+        "nextcloud24",
         "redis",
         "postgres12",
     ],
