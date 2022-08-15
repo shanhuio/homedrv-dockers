@@ -58,13 +58,13 @@ docker_pull {
 
 docker_pull {
     Name: "nextcloud23",
-    Pull: "nextcloud:23.0.7",
+    Pull: "nextcloud:23.0.8",
     OutputTar: true,
 }
 
 docker_pull {
     Name: "nextcloud24",
-    Pull: "nextcloud:24.0.3",
+    Pull: "nextcloud:24.0.4",
     OutputTar: true,
 }
 
@@ -76,7 +76,7 @@ docker_pull {
 
 docker_pull {
     Name: "postgres12",
-    Pull: "postgres:12.11",
+    Pull: "postgres:12.12",
     OutputTar: true,
 }
 
