@@ -58,13 +58,13 @@ docker_pull {
 
 docker_pull {
     Name: "nextcloud23",
-    Pull: "nextcloud:23.0.8",
+    Pull: "nextcloud:23.0.9",
     OutputTar: true,
 }
 
 docker_pull {
     Name: "nextcloud24",
-    Pull: "nextcloud:24.0.4",
+    Pull: "nextcloud:24.0.5",
     OutputTar: true,
 }
 
