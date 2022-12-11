@@ -58,13 +58,19 @@ docker_pull {
 
 docker_pull {
     Name: "nextcloud23",
-    Pull: "nextcloud:23.0.11",
+    Pull: "nextcloud:23.0.12",
     OutputTar: true,
 }
 
 docker_pull {
     Name: "nextcloud24",
-    Pull: "nextcloud:24.0.7",
+    Pull: "nextcloud:24.0.8",
+    OutputTar: true,
+}
+
+docker_pull {
+    Name: "nextcloud25",
+    Pull: "nextcloud:25.0.2",
     OutputTar: true,
 }
 
@@ -93,6 +99,7 @@ bundle {
         "nextcloud22",
         "nextcloud23",
         "nextcloud24",
+        "nextcloud25",
         "redis",
         "postgres12",
     ],
