@@ -64,19 +64,19 @@ docker_pull {
 
 docker_pull {
     Name: "nextcloud24",
-    Pull: "nextcloud:24.0.8",
+    Pull: "nextcloud:24.0.9",
     OutputTar: true,
 }
 
 docker_pull {
     Name: "nextcloud25",
-    Pull: "nextcloud:25.0.2",
+    Pull: "nextcloud:25.0.3",
     OutputTar: true,
 }
 
 docker_pull {
     Name: "redis",
-    Pull: "redis:6.2.7", // Maybe upgrade to redis 7?
+    Pull: "redis:6.2.10", // Maybe upgrade to redis 7?
     OutputTar: true,
 }
 
