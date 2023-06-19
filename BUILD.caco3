@@ -70,7 +70,7 @@ docker_pull {
 
 docker_pull {
     Name: "nextcloud25",
-    Pull: "nextcloud:25.0.6",
+    Pull: "nextcloud:25.0.7",
     OutputTar: true,
 }
 
