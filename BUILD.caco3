@@ -82,7 +82,7 @@ docker_pull {
 
 docker_pull {
     Name: "redis",
-    Pull: "redis:6.2.13", // Maybe upgrade to redis 7?
+    Pull: "redis:6.2.12", // Maybe upgrade to redis 7?
     OutputTar: true,
 }
 
