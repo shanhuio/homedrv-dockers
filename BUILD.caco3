@@ -88,13 +88,13 @@ docker_pull {
 
 docker_pull {
     Name: "redis",
-    Pull: "redis:6.2.11", // Maybe upgrade to redis 7?
+    Pull: "redis:6.2.12-bullseye", // Maybe upgrade to redis 7?
     OutputTar: true,
 }
 
 docker_pull {
     Name: "postgres12",
-    Pull: "postgres:12.15",
+    Pull: "postgres:12.16-bullseye",
     OutputTar: true,
 }
 
